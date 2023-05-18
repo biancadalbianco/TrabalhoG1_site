@@ -1,0 +1,46 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    height: 800px;
+}
+
+.menu {
+    flex: 20%;
+}
+
+.conteudo {
+    flex: 80%;
+    display: flex;
+}
+
+.header {
+    padding: 40px;
+
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacao a {
+
+    text-decoration: none;
+    padding: 10 20;
+}
+
+.navegacao a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.sub-titulo{
+    color: blue;
+}
