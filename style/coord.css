@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@400;700&family=Nunito&display=swap');
+
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.titulo{  
+    color: #137CBF;
+    font-size: 4vh;
+    text-align: center;
+}
+p{
+    max-width: 60vh;
+    max-height: 80vh;
+    text-align: center;
+
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#debora{
+    max-width: 300px;
+    max-height: 300px;
+    padding-left: 10vh;
+}

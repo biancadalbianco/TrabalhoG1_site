@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@400;700&family=Nunito&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.caracteristicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#titulo1, h1{
+    font-size: 5.2vh;
+}
+#texto1, p{
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 2.4vh;
+    max-width: 140vh;
+    max-height: 160vh;
+    text-align: center;
+    word-wrap: break-word;
+}
+.mercadotrabalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #137CBF;
+    width: 150vh;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto; 
+}
+#titulo2{
+    font-size: 5.2vh;
+    color: #ffffff;
+}
+#texto2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4vh;
+    max-width: 140vh;
+    max-height: 160vh;
+    text-align: center;
+    word-wrap: break-word;
+    color: #ffffff;
+}
+.separa{
+    padding-bottom: 90px;
+}
+
